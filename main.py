@@ -219,7 +219,7 @@ def main():
   with col2:
     add_predictions(input_data)
 
-  css_path = Path(__file__).parents[1]
+  css_path = Path(__file__).parents[0]
   with open(f"{css_path}/css/style.css") as f:
        st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
  
