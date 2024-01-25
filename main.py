@@ -138,7 +138,7 @@ def get_radar_chart(input_data):
 
 
 def add_predictions(input_data):
-  pkl_path = Path(__file__).parents[2]
+  pkl_path = Path(__file__).parents[0]
   model = pickle.load(open(f"{pkl_path}/model.pkl", "rb"))
   scaler = pickle.load(open(f"{pkl_path}/scaler.pkl", "rb"))
   input_array = np.array(list(input_data.values())).reshape(1, -1)
