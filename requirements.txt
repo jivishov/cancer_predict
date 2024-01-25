@@ -1,0 +1,7 @@
+pickle
+plotly
+sklearn
+pandas
+requests
+
+
