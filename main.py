@@ -162,8 +162,8 @@ def add_predictions(input_data):
     st.write("<div class='centered-container'><span class='diagnosis malicious'>Bədxassəli</span></div>", unsafe_allow_html=True)
     
   
-  st.write("Xoşxassəli şişin olma ehtimalı (%): ", round(model.predict_proba(input_array_scaled)[0][0]*100,2))
-  st.write("Bədxassəli şişin olma ehtimalı (%): ", round(model.predict_proba(input_array_scaled)[0][1]*100,2))
+  st.write(f"Xoşxassəli şişin olma ehtimalı (%): {round(model.predict_proba(input_array_scaled)[0][0]*100,2)}")
+  st.write(f"Bədxassəli şişin olma ehtimalı (%): {round(model.predict_proba(input_array_scaled)[0][1]*100,2)}")
   
   st.markdown("""
     <style>
