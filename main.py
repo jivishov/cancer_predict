@@ -191,7 +191,7 @@ def main():
   
   with st.container():
     st.header("Sinə Xərçəngi Proqnozu")
-    st.write("Modelin proqnoz nəticəlirini sitologiya laboratoriyası ilə birgə dəyərləndirilməsi, toxuma nümunənisinin sinə xərçəngini diaqnoz etməyə kömək edə bilər. Bu tətbiq maşın öyrənmə modelindən istifadə edərək, sitologiya laboratoriyasından alınan ölçülərə əsasən bir kütlənin xoşxassəli və ya bədxassəli olub-olmadığını proqnozlaşdırır. Soldakı menyudakı slayderlərdən istifadə edərək ölçüləri əl ilə də yeniləyə bilərsiniz.")
+    st.write("Modelin proqnoz və sitologiya laboratoriya nəticələri ilə birgə dəyərləndirilməsi, toxuma nümunənisində sinə xərçəngi diaqnozunu təyin etməyə kömək edə bilər. Bu tətbiq maşın öyrənmə modelindən istifadə edərək, sitologiya laboratoriyasından alınan ölçülərə əsasən bir kütlənin xoşxassəli və ya bədxassəli olub-olmadığını proqnozlaşdırır. Soldakı menyunun slayderlərdən istifadə edərək ölçüləri dəyişdirə bilərsiniz.")
 
     with st.expander("Model Dəyərləndirmə Ölçüləri", expanded=False):
         st.markdown("""
