@@ -153,7 +153,7 @@ def add_predictions(input_data):
         padding: 10px;
         text-align:center;
     }
-    </style><h5 class='red-background'>Hüceyrə klasteri proqnozu</h5)""", unsafe_allow_html=True)
+    </style><h5 class='red-background'>Proqnoz</h5)""", unsafe_allow_html=True)
   st.write("Hüceyrə klasteri:")
   
   if prediction[0] == 0:
